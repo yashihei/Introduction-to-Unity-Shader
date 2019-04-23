@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4117398227826340738}
   - component: {fileID: 4117398227825537954}
   - component: {fileID: 4117398227824439650}
-  - component: {fileID: 595406582333589712}
   m_Layer: 0
   m_Name: dragon
   m_TagString: Untagged
@@ -78,15 +77,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &595406582333589712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4117398227826700194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524033d190e2aca40815de42c67e13fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

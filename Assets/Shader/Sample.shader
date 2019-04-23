@@ -1,4 +1,7 @@
 Shader "Custom/Sample" {
+    Properties {
+        _BaseColor("Base Color", Color) = (1,1,1,1)
+    }
     SubShader {
         Tags { "RenderType"="Opaque" }
         LOD 200
@@ -10,9 +13,9 @@ Shader "Custom/Sample" {
         struct Input {
             float2 uv_MainTex;
         };
-        
+        fixed4 _BaseColor;
         void surf (Input IN, inout SurfaceOutputStandard o) {
-            o.Albedo = fixed4(0.0f, 0.0f, 0.0f, 1);
+            o.Albedo = _BaseColor.rgb;
         }
         
         ENDCG
