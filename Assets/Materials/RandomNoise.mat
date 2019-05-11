@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RandomNoise
-  m_Shader: {fileID: 4800000, guid: 83121b72a7e543e686b0c18ec8b2bd3b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 401f189b3f014df0a46ca543191b53a4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
